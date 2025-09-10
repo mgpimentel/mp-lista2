@@ -167,7 +167,7 @@ render_dashboard(dash)
 # UI principal
 # =========================
 st.title("Lista 2 — Pré-correção Automática (MPM.PPM.T2)")
-st.markdown("Selecione o exercício, escreva seu código e rode os testes.")
+st.markdown("**Total: 10. Mínimo: 7**\n\nSelecione o exercício, escreva seu código e rode os testes.")
 
 ex = st.selectbox("Exercício", ex_keys, format_func=lambda k: k.upper())
 
